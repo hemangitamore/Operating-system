@@ -1,0 +1,147 @@
+//Operating system Assignment1
+cd ~
+  291  ls
+  292  mkdir LinuxAssignment
+  293  cd LinuxAssignment
+  294  cat > file2.txt
+  295  cat file2.txt
+  296  mkdir docs
+  297  cp file2.txt docs/
+  298  cat docs
+  299  mv docs file3.txt
+  300  cat file3.txt
+  301  more file3.txt
+  302  rm file3.txt
+  303  rm -r file3.txt
+  304  cd docs
+  305  mkdir docs
+  306  cp file2.txt docs/file3.txt
+  307  cat file3.txt
+  308  chmod u=rwx,go=r file3.txt
+  309  ls
+  310  cd `
+  311  cd ~
+  312  rm LinuxAssignment
+  313  cd LinuxAssignment
+  314  rm LinuxAssignment
+  315  rm -r LinuxAssignment
+  316  cd .
+  317  cd ~
+  318  ls
+  319  pwd
+  320  rm LinuxAssignment
+  321  rm -r /path/to/LinuxAssignment
+  322  rmdir LinuxAssignment
+  323  rm -r LinuxAssignment
+  324  ls
+  325  cd ~
+  326  ls
+  327  mkdir LinuxAssignment
+  328  cd LinuxAssignment
+  329  cat > file2.txt
+  330  cat file2.txt
+  331  mkdir docs
+  332  cp file2.txt docs/file3.txt
+  333  chmod 744 file3.txt
+  334  ls
+  335  chmod 744 docs/file3.txt
+  336  chown $(whoami) docs/file3.txt
+  337  cd ~
+  338  ls
+  339  cd LinuxAssignment
+  340  ls
+  341  ls -al
+  342  ls -alh
+  343  find .-type f -name "*.txt"
+  344  cd file3.txt
+  345  cd ~
+  346  ls LinuxAssignment
+  347  ls /
+  348  ls
+  349  ls docs
+  350  cd LinuxAssignment
+  351  ls docs
+  352  find . -type f -name "*.txt"
+  353  grep "text" file3.txt
+  354  grep "text" file2.txt
+  355  cd ~
+  356  date
+  357  time
+  358  man time
+  359  time ls
+  360  ip addr
+  361  ipconfig
+  362  ifconfig
+  363  ip addr show
+  364  ping
+  365  ping 172.25.195.176
+  366  history
+  367  zip -r docs.zip docs
+  368  sudo apt install zip
+  369  zip -r docs.zip docs
+  370  cd docs
+  371  cd LinuxAssignment
+  372  cd docs
+  373  zip -r docs.zip docs
+  374  cd .
+  375  cd ..
+  376  zip -r docs.zip docs
+  377  unzip docs.zip -d new_docs
+  378  vi file2.txt
+  379  cd ~
+  380  cat > data.txt
+  381  head -n 10 data.txt
+  382  tail -n 5 data.txt
+  383  cat > numbers.txt
+  384  head -n 15 numbers.txt
+  385  tail -n 3 numbers.txt
+  386  cat > input.txt
+  387  tr '[':lower:]' '[:upper:]'< input.txt >output.txt
+  388  tr '[':lower:]' '[:upper:]' < input.txt > output.txt
+  389  tr '[:lower:]' '[:upper:]' < input.txt > output.txt
+  390  cat output.txt
+  391  cat > input.txt
+  392  tr '[:lower:]' '[:upper:]' < input.txt > output.txt
+  393  cat output.txt
+  394  cat > duplicate.txt
+  395  uniq duplicate.txt
+  396  cat > fruit.txt
+  397  sort fruit.txt | uniq -c | awk '{print $2,$1}'
+  398  history
+hemangitamore@DESKTOP-RU86PQK:~$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
